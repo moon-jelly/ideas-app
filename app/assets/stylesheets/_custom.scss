@@ -3,11 +3,34 @@ $font-family-sans-serif: Karla;
 
 $primary: #a17cdb;
 
+html {height: 100%;}
+
+body { 
+	height: 100%;
+	background: #fff; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #d5bff8, #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #d5bff8, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #d5bff8, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #d5bff8, #fff); /* Standard syntax (must be last) */ }
+
 body h1 {
 	font-family: Pacifico;
+	color: #6f42c1;
+	text-shadow:
+		-1px -1px 0 #fff,
+		1px -1px 0 #fff,
+		-1px 1px 0 #fff,
+		1px 1px 0 #fff;
 }
 
 .new_user h1,
 .new_user h3 {
 	text-align: center;
+	color:  #6f42c1;
+}
+
+p.alert-danger {
+    background-color: #fff;
+    border-color: #f5c6cb;
+    color: #721c24;
 }
